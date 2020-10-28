@@ -1,0 +1,52 @@
+.Cotain_Bill{
+    width: 50%;
+    height: auto;
+    padding: 10px;
+    float: left;
+    margin-left: 25%;
+    background-color: gray;
+    margin-top: 2%;
+    color: white;
+}
+.Title_Bill{
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    background-color: teal;
+    margin-bottom: 2%;
+}
+.List_Pro{
+    width: 100%;
+    float: left;
+    font-size: 22px;
+    background-color: cadetblue;
+    padding-top: 5px;
+}
+.List_Pro .Product{
+    float: left;
+    margin-left: 10%;
+    margin-bottom: 5%;
+    padding-top: 20px;
+}
+.List_Pro .Count{
+    float: left;
+    margin-left: 50%;
+    margin-bottom: 5%;
+    padding-top: 20px;
+}
+.Total{
+    float: left;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    background-color: teal;
+    margin-top: 2%;
+}
+
+.submit_form{
+    width: 100%;
+    font-size: 20px;
+    margin-top: 2%;
+    height: 40px;
+}

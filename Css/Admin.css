@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgba(180, 179, 179, 0.414);
+}
+.Top{
+    width: 100%;
+    height: 150px;
+    background-color: #26d46e;
+}
+#Logo{
+    float: left;
+    margin: 10px 30px;
+    width: 20%;
+    height: 100px;
+    background: url("../Image/Logo.png") no-repeat;
+    background-size: 100% 100px;
+}
+.Menu_top{
+   
+    font-size: 28px;
+    width: 60%;
+    float: left;
+    margin-left: 60px;
+}
+.Menu_button{   
+    color: white;
+    float: left;
+    margin-top: 20px;
+    padding: 30px 40px;
+    text-decoration: none;
+    text-shadow: 2px 2px gray;
+    transition: margin-top 1s;
+}
+.Menu_button:hover{
+    margin-top: 10px;
+}
+.Search{
+    width: 80%;
+    height: 80px;
+    float: left;
+    margin: 30px 10%;
+    background-color: #26d46e;
+    border-radius: 10px;
+}
+.Search i{
+    float: left;
+    margin: 20px 0 20px 20px;
+    width: 5%;
+    font-size: 30px;
+}
+#SearchTex{
+    font-size: 22px;
+    float: left;
+    margin-top: 10px;
+    width: 40%;
+    height: 50px;
+    border-radius: 10px;
+}
+.custom-select{
+    float: left;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 35%;
+    height: 50px;
+}
+.custom-select select{
+    font-size: 22px;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+}
+.Search input[type=submit]{
+    font-size: 22px;
+    float: left;
+    width: 10%;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    margin-left: 40px;
+    margin-top: 10px;
+}
+.ListProduct{
+    width: 70%;
+    height: auto;
+    padding: 20px 0 20px 0;
+    float: left;
+    margin: 30px 15%;
+    background-color: #26d46e;
+    border-radius: 10px;
+}
+.product{
+    float: left;
+    width: 90%;
+    height: 80px;
+    margin: 20px 5%;
+    background-color: white;
+    border-radius: 10px;
+}
+.product img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 10px 30px;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+.product #Money{
+    height: 25px;
+    float: left;
+    width: 8%;
+    margin: 25px 20px ;
+    font-size: 22px;
+}
+.product #Count{
+    height: 25px;
+    float: left;
+    width: 5%;
+    margin: 25px 20px ;
+    font-size: 22px;
+}
+.product #Group{
+    height: 25px;
+    float: left;
+    width: 6%;
+    margin: 25px 20px ;
+    font-size: 22px;
+}
+.product #NameProduct{
+    height: 25px;
+    float: left;
+    width: 30%;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-line-clamp: 1;
+    -webkit-box-orient: vertical;
+    margin: 25px 20px ;
+    font-size: 22px;
+} 
+.product input[type=text]{
+    float: left;
+    width: 40px;
+    height: 30px;
+    padding: 10px;
+    margin: 15px 10px;
+
+}
+.product input[type=submit]{
+    font-size: 18px;
+    float: right;
+    width: 70px;
+    height: 40px;
+    margin: 20px 20px;
+    background-color: rgba(255, 0, 0, 0.555);
+}
+.product input[type=submit]:last-child{
+    background-color: rgba(172, 255, 47, 0.493);
+}
+.Add{
+    float: left;
+    width: 80%;
+    height: auto;
+    padding: 30px;
+    margin: 30px 10%;
+    background-color:#26d46e ;
+    border-radius: 10px;
+}
+.tag{
+    padding: 20px;
+    float: left;
+    width: 90%;
+    height: auto;
+    margin: 10px 5%;
+    background-color: white;
+    border-radius: 10px;
+    font-size: 25px;
+}
+.tag label{
+    float: left;
+    margin: 10px 10px;
+}
+.tag input {
+    font-size: 25px;
+    float: left;
+    width: 80%;
+    height: 50px;
+}
+.tag select{
+    font-size: 25px;
+    float: left;
+    width: 80%;
+    height: 50px;
+}
+#txtArea{
+    font-size: 25px;
+    padding: 25px;
+}
+.Add input[type="submit"]{
+    font-size: 25px;
+    float: left;
+    width: 20%;
+    height: 80px;
+    margin: 20px 40%;
+    background-color: white;
+    transition: background-color 0.5s;
+}
+.Add input[type="submit"]:active{
+    background-color: rgba(128, 128, 128, 0.375);
+}

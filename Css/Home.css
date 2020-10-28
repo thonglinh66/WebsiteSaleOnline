@@ -1,0 +1,203 @@
+
+.BodyConten{
+    background-color: #b2ebca;    
+    float: left;
+    width: 100% ;
+    height: 600px;
+}
+ .BackGround_Body{
+	width: 56%;
+	height: 360px;
+    float: left;
+    margin-left: 22%;
+	overflow: hidden;
+	margin-top: 30px;
+	background: url("../Image/bg-top.jpg");
+}
+.Image_body{
+	width: 914;
+	margin: 0 auto;
+	overflow: hidden;
+	margin-top: 5px;
+	border-radius: 5px;
+	position: relative;
+	border: 2px solid #666666;
+	z-index: 2;
+}
+img{
+    width: 914px;
+	height: 350px;
+	float: left;
+
+}
+.Background-choose{
+	width: 90px;
+	height: auto;
+	margin: 0 auto;
+    margin-top: 20px;
+    position: absolute;
+    bottom: 20px;
+    left: 430px;
+}
+.Change {
+	list-style-type: none;
+	overflow: hidden;
+	width: 90px;
+	height: 15px;
+	transition: all 0.5s;
+	margin:  0 auto;
+	margin-top: 20px;
+}
+
+.Image_Stranfer{
+	width: 99999px;
+	transition: all 0.5s;
+}
+.Image_body:hover .direction{
+	display: block;
+}
+.direction{
+	position: absolute;
+	color: black;
+	font-size: 40px;
+	top: 40%;
+	padding-left: 20px;
+	display: none;
+}
+.direction i:last-child{
+	position: relative;
+	left: 780px;
+}
+.Maketingmore{
+    float: left;
+    margin-left: 20px;
+    margin-top: 35px;
+    width: 25%;
+    height: 370px;
+}
+.Maketingmore a img:first-child{
+    padding-bottom: 10px;
+}
+.MoreImage{
+    border: 1px solid black;
+    width: 100%;
+    height: 170px;
+    margin-bottom: 5px;
+}
+.Check{
+    float: left;
+    margin-left: 230px;
+}
+.CheckItem{
+    transition: margin-top 0.5s;
+    width: 110px;
+    height: 130px;
+    margin-top: 10px;
+}
+.CheckItem i{
+    color: rgba(8, 163, 91, 0.993);
+    width: 70px;
+    height: 70px;
+    font-size: 50px;
+    float: left;
+    margin-left: 5px;
+    padding: 5px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+.CheckItem p{
+    color: black;
+    font-size: 18px;
+    float: left;
+    margin-top: 20px;
+}
+.CheckItem i:hover{
+    color: gray;
+}
+.CheckItem:hover{
+    margin-top: 1px;
+}
+.ListItem{
+    width: 80%;
+    background-color: #b2ebca;
+    float: left;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10%;
+    
+}
+.ChooseItem{
+    width: 100%;
+    height: 200px;
+    background-color: #b2ebca;    
+    border: 1px solid gray;
+    text-align: center;
+    padding: 0;
+}
+.ListItem ul li{
+    width: 12.46%;
+}
+.TitleIntro{
+    width: 100%;
+    height: 60px;
+}
+.TitleIntro h1{
+    float: left;
+    margin-top: 15px;
+    margin-left: 15px;
+    font-weight: normal;
+    color: rgb(102, 102, 102);
+}
+li p{
+    height: 20px;
+    font-size: 20px;
+    margin: 85% 5% 0;
+    color: black; 
+}
+.ImgItem{
+    width: 70%;
+    height: 95px;
+    border-radius: 50%;
+    border: 2px black dotted;
+    float: left;
+    margin-left: 15%;
+    margin-top: 5%;
+}
+.ChooseItem:hover{
+    border-top: 2px solid black;
+    height: 199px;
+}
+.Recomand{
+    width: 80%;
+    background-color: #b2ebca;
+    float: left;
+    height: auto;
+    margin-top: 30px;
+    margin-left: 10%;
+}
+
+.ChooseMenu{    
+    float: left;
+    width: 100%;
+    height: 55px;
+    background-color: #26d46e;
+}
+.ColorMenu{
+    padding-right: 50px;
+    height: 5px;
+    background-color: rgb(50, 78, 21);  
+    opacity: 0;
+}
+.Menu{
+    padding-right: 50px;
+    height: 50px;
+    text-align: center;
+}
+.PickedMenu{
+    padding: 0;
+    width: auto;
+    height: 55px;
+    float: left;
+    margin-left: 0;
+    margin-top: 0;
+}

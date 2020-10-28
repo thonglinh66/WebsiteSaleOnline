@@ -1,0 +1,34 @@
+.InforLyon{
+    text-align: center;
+    margin-top: 100px;
+    float: left;
+    width: 100%;
+    height: 300px;
+    border-top: 5px solid #0da04a;
+    background-color:#b2ebca; ;
+}
+.Policy{
+    float: left;
+    width: 80%;
+    height: 30px;
+    margin-left: 10%;
+    margin-top: 20px;
+    font-size: 22px;
+    color: rgb(80, 79, 79);
+}
+.MenuPolicy{
+    float: left;
+    padding: 0 30px;
+    border-right: 1px solid rgb(80, 79, 79);
+}
+.MenuPolicy:last-child{
+    border-right: none;
+}
+.AddressLyon{
+    color: rgb(80, 79, 79);
+    font-size: 18px;
+    line-height: 50px;
+    float: left;
+    width: 100%;
+    margin-top: 40px;
+}

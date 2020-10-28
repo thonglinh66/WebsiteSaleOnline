@@ -1,0 +1,129 @@
+.product{
+    float: left;
+    width: 90%;
+    height: 80px;
+    margin: 20px 5%;
+    background-color: white;
+    border-radius: 10px;
+}
+.product_first{
+    float: left;
+    width: 90%;
+    height: 80px;
+    margin: 20px 5%;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.product_first #NameProduct{
+    width: 25%;
+    float: left;
+    margin: 25px 20px ;
+    font-size: 22px;
+}
+.product_first #Img{
+    width: 6%;
+    float: left;
+    margin: 25px 20px ;
+    font-size: 22px;
+}
+.product_first #CountSaled{
+    width: 22%;
+    float: left;
+    margin: 25px 20px ;
+    font-size: 22px;
+}
+.product_first #Money{
+    width: 23%;
+    float: left;
+    margin: 25px 20px ;
+    font-size: 22px;
+}
+.product_first #Delete{
+    width: 6%;
+    float: left;
+    margin: 25px 20px ;
+    font-size: 22px;
+}
+.product_first input[type=text]{
+    float: left;
+    width: 70px;
+    height: 30px;
+    padding: 10px;
+    margin: 15px 10px;
+
+}
+.product img{
+    float: left;
+    width: 60px;
+    height: 60px;
+    margin: 10px 30px;
+    border: 2px solid gray;
+    border-radius: 4px;
+}
+.product label{
+    width: 26%;
+    float: left;
+    margin: 25px 20px ;
+    font-size: 22px;
+}
+.product #CountSaled{
+    width: 4%;
+    float: left;
+    margin: 25px 20px ;
+    font-size: 22px;
+}
+
+.product input[type=text]{
+    float: left;
+    width: 70px;
+    height: 30px;
+    padding: 10px;
+    margin: 15px 10px;
+
+}
+.product input[type=submit]{
+    font-size: 18px;
+    float: right;
+    width: 70px;
+    height: 40px;
+    margin: 20px 80px;
+    background-color: rgba(255, 0, 0, 0.555);
+}
+.product input[type=submit]:last-child{
+    background-color: rgba(172, 255, 47, 0.493);
+}
+.Total{
+    width: 80%;
+    height: auto;
+    background-color: #b2ebca;;
+    margin-left: 10%;
+    float: left;
+    margin-top: 50px;
+    text-align: center;
+    padding: 20px;
+   
+}
+.Total #Total_Saled{
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 30px;
+    margin-left: 10%;
+    float: left;
+}
+.CountMoneyTotal{
+    margin-bottom: 30px;
+    color: gray;
+    font-size: 30px;
+    float: left;
+}
+.Contain_Button_Buy{
+    width: 100%;
+    margin-left: 0px;
+}
+#Button_Buy{
+    font-size: 25px;
+    width: 20%;
+    height: 70px;
+    margin-left: 40%;
+}

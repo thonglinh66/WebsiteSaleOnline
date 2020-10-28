@@ -1,0 +1,331 @@
+.BodyContent{
+    width: 80%;
+    float: left;
+    height: 800px;
+    background-color: #b2ebca;
+    margin-left: 10%;
+    margin-top: 80px;
+}
+.ContainItem{
+    width: 35%;
+    height: 85%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+    overflow: hidden;
+}
+.ImgItem{
+    width: 100%;
+    height: 550px;
+}
+.ImgItem img{
+    width: 100%;
+    height: 100%;
+}
+.ListImg{
+    float: left;
+    margin-top: 10px;
+    width: 9999px;
+    height: 120px;
+    margin-left: 0;
+}
+.listImgItem{
+    float: left;
+    border: 3.65px solid white;
+    width: 122px;
+    height: 94%;
+}
+.listImgItem:hover {
+    border: 3.65px solid rgb(10, 175, 10);
+}
+.Button{
+    float: left;
+    width: 26%;
+    height: 1px;
+    position: absolute;
+    padding-left: 0.3%;
+    padding-top: 50px;
+    font-size: 30px;
+}
+.Button i{
+    width: 30px;
+    height: 30px;
+    padding: 5px 0;
+    background-color: rgba(128, 128, 128, 0.603);
+    color: white;
+}
+.Button i:hover{
+    background-color: gray;
+}
+.Button i:last-child{
+	position: relative;
+    left: 99%;
+ 
+}
+.Information{
+    width: 59%;
+    height: 85%;
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;  
+
+}
+.Title{
+    line-height: 40px;
+    float: left;
+    margin-left: 50px;
+    font-weight: normal;
+    font-size: 27px;
+    color: rgba(0, 0, 0, 0.9);
+}
+.Rate{
+    float: left;
+    width: 100%;
+    height: 50px;
+}
+.Star{
+    float: left;
+    width: 200px;
+    height: 80%;
+    margin-left: 50px;
+    margin-top: 25px;
+    border-right: 2px solid rgba(128, 128, 128, 0.616);
+}
+.Star p{
+    float: left;
+    font-size: 25px;
+}
+.Star .iStar{
+    float: left;
+    margin-top: 3px;
+    margin-left: 15px;
+    color: #0d8b42;
+    font-size: 20px;
+}
+.Cmt{
+    float: left;
+    width: 200px;
+    height: 80%;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-right: 2px rgba(128, 128, 128, 0.616);
+}
+.Cmt p {
+    float: left;
+    font-size: 25px;
+    padding-left: 10px;
+    color: rgb(85, 85, 85);
+}
+.Cmt .count{
+    color: black;
+}
+.Saled{
+    float: left;
+    width: 200px;
+    height: 80%;
+    margin-left: 25px;
+    margin-top: 25px;
+    border-right: 2px solid rgba(128, 128, 128, 0.616);
+}
+.Saled .count{
+    color: black;
+}
+.Saled p{
+    float: left;
+    font-size: 25px;
+    padding-left: 10px;
+    color: rgb(85, 85, 85);
+}
+.CountMoney{
+    width: 90%;
+    float: left;
+    margin-left: 5.5%;
+    margin-top: 30px;
+    height: 70px;
+    background-color: rgba(128, 128, 128, 0.16);
+}
+.CountMoney p{
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+    font-size: 25px;
+    color: rgb(5, 78, 5);
+}
+.CountMoney .Money{
+    margin-left: 0px;
+    margin-top: 15px;
+    font-size: 35px;
+}
+.Tranfer{
+    width: 90%;
+    float: left;
+    margin-left: 5.5%;
+    margin-top: 30px;
+    height:200px;
+}
+.TextFont{
+    margin-top: 5px;
+    float: left;
+    font-size: 18px;
+    color: rgba(0, 0, 0, 0.671);
+}
+.Off{
+    float: left;
+    margin-bottom: 20px;
+}
+.Free {
+    float: left;
+    margin-left: 50px;
+    font-family: monospace, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0d8b42;
+    
+}
+.FreeSale{
+    line-height: 35px;
+    float: left;
+}
+.TextSale{
+    color: gray;
+    float: left;
+}
+.FontTextSale{
+    font-size: 18px;
+    margin-left: 10px;
+    float: left;
+    width: 60%;
+
+}
+.Checkin{
+    width: 95%;
+    float: left;
+    margin-left: 5.5%;
+    margin-top: 10px;
+    height:100px;
+}
+.TextCheckint{
+    margin-top: 12px;
+    float: left;
+    margin-left: 110px;
+    margin-right: 10px;
+    
+}
+.TextCheckint i{
+    float: left;
+    color: green;
+    font-size: 30px;
+}
+.TextCheckint .TextCheck{
+    float: left;
+    font-size: 18px;
+    margin-left: 25px;
+    color: gray;
+}
+.TextCheckin{
+    width: 250px;
+    height: auto; 
+    margin-top: 50px;
+    font-size: 18px;
+    margin-left: 175px;
+    color: gray;
+}
+.TextCheck{
+    float: left;
+    padding-right: 10px;
+}
+.TextCheckMoney{
+    float: left;
+    margin-top: 10px;
+}
+.CountMany{
+    width: 99%;
+    float: left;    
+    margin-top: 10px;
+    height:100px;
+}
+.CountMany .ButtonCout{
+    float: left;
+    margin-left: 70px;
+}
+.UpDown{
+    float: left;
+    color: rgb(75, 74, 74);
+    font-weight: normal;
+    text-align: center;
+    font-size: 25px;
+    padding: 10px;
+    border: 1px solid gray;
+}
+.UpDown:active{
+    background-color: gray;
+}
+#CountOne{
+    text-align: center;
+    font-size: 25px;
+    border: 1px solid gray;
+    float: left;
+    width: 100px;
+    height: 47px;
+    background-color: rgba(128, 128, 128, 0.16);
+}
+.ButtonBuy{
+    width: 99%;
+    float: left;    
+    margin-top: 30px;
+    height:100px;
+}
+.addStore{
+    text-align: center;
+    float: left;
+    width: 240px;
+    height: 100px;
+    font-size: 21px;
+    padding: 20px;
+    color: rgb(2, 99, 16);
+    background-color: #26d46e4d;
+    border: 2px solid green;
+}
+.addStore:last-child{
+    margin-left: 20px;
+}
+.addStore p{
+    margin-top: 5px;
+}
+.addStore i {
+    color: rgb(56, 92, 2);
+    float: left;
+    font-size: 30px;
+    padding-right: 10px;
+}
+#Buy{
+    margin-left: 30px;
+    background-color: #26d46e;
+}
+.addStore:hover{
+    opacity: 0.8;
+    border: 2px solid rgb(2, 85, 2);
+}
+.MoreProduct{
+    width: 80%;
+    height: 400px;
+    float: left;
+    margin-left: 10%;
+    margin-top: 2%;
+    background-color: #b2ebca;
+}
+.TitleMore{
+    width: 100%;
+    float: left;
+    height: 13%;
+    background-color: #26d46e;
+}
+.TitleMore h1{
+    padding: 5px;
+    color: rgb(39, 39, 39);
+    text-align: center;
+}
+.ContainProduct{
+    width: 100%;
+    height: auto;
+}
